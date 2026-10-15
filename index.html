@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galindo Peluqueros | Tarifas y Bonos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            400: '#FACC15',
+                            500: '#EAB308',
+                            600: '#CA8A04',
+                            700: '#A16207',
+                        },
+                        dark: {
+                            900: '#0A0A0A',
+                            800: '#121212',
+                            700: '#1E1E1E',
+                            600: '#2A2A2A'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFF5C0 0%, #EAB308 50%, #9A6A00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-border {
+            border-image: linear-gradient(to bottom right, #EAB308, #423200) 1;
+        }
+        .card-glow:hover {
+            box-shadow: 0 0 20px rgba(234, 179, 8, 0.25);
+        }
+        body {
+            background-color: #0A0A0A;
+            color: #E5E7EB;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center pb-12 pt-6 px-4 selection:bg-gold-500 selection:text-black">
+
+    <!-- Header / Logo -->
+    <header class="w-full max-w-md text-center mb-8 flex flex-col items-center">
+        <!-- Brand Logo Graphic SVG -->
+        <div class="mb-4 transform hover:scale-105 transition-transform duration-300">
+            <svg class="w-36 h-auto drop-shadow-[0_4px_12px_rgba(234,179,8,0.3)]" viewBox="0 0 300 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Outer Rounded Container Shape -->
+                <path d="M 20 20 Q 150 0 280 20 C 290 80 290 140 280 200 Q 150 220 20 200 C 10 140 10 80 20 20 Z" fill="#EAB308"/>
