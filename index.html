@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galindo Peluqueros | Tarifas y Bonos</title>
+    <title>Galindo Barber Shop | Tarifas y Bonos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -50,20 +50,22 @@
 </head>
 <body class="min-h-screen flex flex-col items-center pb-12 pt-8 px-4 selection:bg-gold-500 selection:text-black">
 
-    <!-- Header / Logo -->
+    <!-- Header / Logo Exacto Estilo Tu Imagen -->
     <header class="w-full max-w-md text-center mb-8 flex flex-col items-center">
-        <!-- Logo Vectorial Galindo Peluqueros -->
-        <div class="w-24 h-24 mb-3 flex items-center justify-center">
-            <svg class="w-full h-full drop-shadow-[0_0_12px_rgba(234,179,8,0.3)]" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- Marco rectangular redondeado -->
-                <rect x="10" y="10" width="180" height="180" rx="35" fill="#EAB308"/>
-                <!-- Monograma Geométrico GG estilizado -->
-                <path d="M 45 95 L 85 55 L 110 80 L 85 105 L 68 88 L 105 88" stroke="#0A0A0A" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
-                <path d="M 155 105 L 115 145 L 90 120 L 115 95 L 132 112 L 95 112" stroke="#0A0A0A" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+        <!-- SVG Recreando exactamente el diseño de tu logo en dorado -->
+        <div class="w-40 h-auto mb-4 flex items-center justify-center drop-shadow-[0_4px_16px_rgba(234,179,8,0.3)]">
+            <svg viewBox="0 0 320 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <!-- Fondo contenedor con forma de banderas/curva superior e inferior -->
+                <path d="M 15 35 Q 160 5 305 35 C 315 105 315 175 305 245 Q 160 275 15 245 C 5 175 5 105 15 35 Z" fill="#EAB308"/>
+                <!-- Formas geométricas interiores en negro mate -->
+                <!-- Bloque izquierdo -->
+                <path d="M 75 90 L 125 50 L 155 80 L 125 110 L 105 92 L 140 92" stroke="#0A0A0A" stroke-width="15" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+                <!-- Bloque derecho -->
+                <path d="M 245 190 L 195 230 L 165 200 L 195 170 L 215 188 L 180 188" stroke="#0A0A0A" stroke-width="15" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
             </svg>
         </div>
         <h1 class="text-2xl font-black text-white tracking-wider uppercase mb-0.5">Galindo</h1>
-        <p class="text-xs uppercase tracking-[0.3em] text-gold-500 font-extrabold mb-3">Peluqueros</p>
+        <p class="text-xs uppercase tracking-[0.3em] text-gold-500 font-extrabold mb-3">Barber Shop</p>
         <p class="text-xs text-gray-400 max-w-xs">Selecciona tu bono o servicio para reservar directo al WhatsApp</p>
     </header>
 
@@ -163,88 +165,4 @@
                         <span class="text-xl font-black gold-gradient-text">125€</span>
                         <span class="block text-[9px] text-gray-400 font-medium">/mes</span>
                     </div>
-                </a>
-
-            </div>
-        </section>
-
-        <!-- Sección: Barba & Especiales -->
-        <section>
-            <div class="flex items-center space-x-2 mb-4">
-                <div class="h-5 w-1 bg-gold-500 rounded-full"></div>
-                <h2 class="text-sm font-bold uppercase tracking-wider text-white">Barba y Tratamientos</h2>
-            </div>
-
-            <div class="space-y-3">
-
-                <!-- Solo Barba -->
-                <a href="https://wa.me/34633621524?text=%C2%A1Hola!%20Quiero%20reservar%20el%20servicio:%20Solo%20barba%20(12,50%E2%82%AC)" target="_blank" class="block bg-dark-800 border border-dark-600 hover:border-gold-500 rounded-xl p-4 flex justify-between items-center transition-all duration-200 card-glow group">
-                    <div class="flex items-center space-x-3">
-                        <div class="p-2.5 rounded-lg bg-dark-700 text-gold-500 group-hover:bg-gold-500 group-hover:text-black transition-colors">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
-                        </div>
-                        <div>
-                            <h3 class="font-bold text-white text-sm group-hover:text-gold-400 transition-colors">Solo Barba</h3>
-                            <p class="text-[11px] text-gray-400">Arreglo y perfilado completo</p>
-                        </div>
-                    </div>
-                    <div class="text-right">
-                        <span class="text-lg font-extrabold text-white group-hover:text-gold-400">12,50€</span>
-                    </div>
-                </a>
-
-                <!-- 1 Corte + Barba -->
-                <a href="https://wa.me/34633621524?text=%C2%A1Hola!%20Quiero%20reservar%20la%20tarifa:%201%20corte%20con%20barba%20(28,50%E2%82%AC)" target="_blank" class="block bg-dark-800 border border-dark-600 hover:border-gold-500 rounded-xl p-4 flex justify-between items-center transition-all duration-200 card-glow group">
-                    <div class="flex items-center space-x-3">
-                        <div class="p-2.5 rounded-lg bg-dark-700 text-gold-500 group-hover:bg-gold-500 group-hover:text-black transition-colors">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 0L4 4m5.121 5.121L4 19"></path></svg>
-                        </div>
-                        <div>
-                            <h3 class="font-bold text-white text-sm group-hover:text-gold-400 transition-colors">1 corte con barba</h3>
-                            <p class="text-[11px] text-gray-400">Servicio completo puntual</p>
-                        </div>
-                    </div>
-                    <div class="text-right">
-                        <span class="text-lg font-extrabold text-white group-hover:text-gold-400">28,50€</span>
-                    </div>
-                </a>
-
-                <!-- 2 Cortes con Barba -->
-                <a href="https://wa.me/34633621524?text=%C2%A1Hola!%20Quiero%20reservar%20la%20tarifa:%202%20cortes%20al%20mes%20con%20barba%20(45%E2%82%AC)" target="_blank" class="block bg-dark-800 border border-dark-600 hover:border-gold-500 rounded-xl p-4 flex justify-between items-center transition-all duration-200 card-glow group">
-                    <div class="flex items-center space-x-3">
-                        <div class="p-2.5 rounded-lg bg-dark-700 text-gold-500 group-hover:bg-gold-500 group-hover:text-black transition-colors">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 0L4 4m5.121 5.121L4 19"></path></svg>
-                        </div>
-                        <div>
-                            <h3 class="font-bold text-white text-sm group-hover:text-gold-400 transition-colors">2 cortes al mes con barba</h3>
-                            <p class="text-[11px] text-gray-400">Mantén tu estilo perfecto</p>
-                        </div>
-                    </div>
-                    <div class="text-right">
-                        <span class="text-lg font-extrabold text-white group-hover:text-gold-400">45€</span>
-                        <span class="block text-[9px] text-gray-500 font-medium">/mes</span>
-                    </div>
-                </a>
-
-                <!-- 4 Cortes con Barba -->
-                <a href="https://wa.me/34633621524?text=%C2%A1Hola!%20Quiero%20reservar%20la%20tarifa:%204%20cortes%20al%20mes%20con%20barba%20(78%E2%82%AC)" target="_blank" class="block bg-dark-800 border border-dark-600 hover:border-gold-500 rounded-xl p-4 flex justify-between items-center transition-all duration-200 card-glow group">
-                    <div class="flex items-center space-x-3">
-                        <div class="p-2.5 rounded-lg bg-dark-700 text-gold-500 group-hover:bg-gold-500 group-hover:text-black transition-colors">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 0L4 4m5.121 5.121L4 19"></path></svg>
-                        </div>
-                        <div>
-                            <h3 class="font-bold text-white text-sm group-hover:text-gold-400 transition-colors">4 cortes al mes con barba</h3>
-                            <p class="text-[11px] text-gold-500 font-medium">Look impecable cada semana</p>
-                        </div>
-                    </div>
-                    <div class="text-right">
-                        <span class="text-lg font-extrabold text-white group-hover:text-gold-400">78€</span>
-                        <span class="block text-[9px] text-gray-500 font-medium">/mes</span>
-                    </div>
-                </a>
-
-                <!-- Color + Corte -->
-                <a href="https://wa.me/34633621524?text=%C2%A1Hola!%20Quiero%20reservar%20el%20servicio:%20Color%20m%C3%A1s%20corte%20(73%E2%82%AC)" target="_blank" class="block bg-dark-800 border border-dark-600 hover:border-gold-500 rounded-xl p-4 flex justify-between items-center transition-all duration-200 card-glow group">
-                    <div class="flex items-center space-x-3">
-                        <div class="p-2.5 rounded-lg bg-dark-700 text-gold-500 group-hover:bg-gold-500 group-hover:text-black transition-colors">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-
+                
