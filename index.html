@@ -52,11 +52,17 @@
 
     <!-- Header / Logo -->
     <header class="w-full max-w-md text-center mb-8 flex flex-col items-center">
-        <!-- Logo Emblem -->
-        <div class="w-20 h-20 bg-dark-800 border-2 border-gold-500 rounded-2xl flex items-center justify-center mb-4 shadow-[0_0_20px_rgba(234,179,8,0.2)]">
-            <span class="text-3xl font-black gold-gradient-text">G·G</span>
+        <!-- Logo Vectorial Galindo Peluqueros -->
+        <div class="w-24 h-24 mb-3 flex items-center justify-center">
+            <svg class="w-full h-full drop-shadow-[0_0_12px_rgba(234,179,8,0.3)]" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Marco rectangular redondeado -->
+                <rect x="10" y="10" width="180" height="180" rx="35" fill="#EAB308"/>
+                <!-- Monograma Geométrico GG estilizado -->
+                <path d="M 45 95 L 85 55 L 110 80 L 85 105 L 68 88 L 105 88" stroke="#0A0A0A" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+                <path d="M 155 105 L 115 145 L 90 120 L 115 95 L 132 112 L 95 112" stroke="#0A0A0A" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+            </svg>
         </div>
-        <h1 class="text-2xl font-black text-white tracking-wider uppercase mb-1">Galindo</h1>
+        <h1 class="text-2xl font-black text-white tracking-wider uppercase mb-0.5">Galindo</h1>
         <p class="text-xs uppercase tracking-[0.3em] text-gold-500 font-extrabold mb-3">Peluqueros</p>
         <p class="text-xs text-gray-400 max-w-xs">Selecciona tu bono o servicio para reservar directo al WhatsApp</p>
     </header>
@@ -241,69 +247,4 @@
                 <a href="https://wa.me/34633621524?text=%C2%A1Hola!%20Quiero%20reservar%20el%20servicio:%20Color%20m%C3%A1s%20corte%20(73%E2%82%AC)" target="_blank" class="block bg-dark-800 border border-dark-600 hover:border-gold-500 rounded-xl p-4 flex justify-between items-center transition-all duration-200 card-glow group">
                     <div class="flex items-center space-x-3">
                         <div class="p-2.5 rounded-lg bg-dark-700 text-gold-500 group-hover:bg-gold-500 group-hover:text-black transition-colors">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
-                        </div>
-                        <div>
-                            <h3 class="font-bold text-white text-sm group-hover:text-gold-400 transition-colors">Color + Corte</h3>
-                            <p class="text-[11px] text-gray-400">Tinte profesional y asesoramiento</p>
-                        </div>
-                    </div>
-                    <div class="text-right">
-                        <span class="text-lg font-extrabold text-white group-hover:text-gold-400">73€</span>
-                    </div>
-                </a>
-
-                <!-- Moldeado / Permanente + Corte -->
-                <a href="https://wa.me/34633621524?text=%C2%A1Hola!%20Quiero%20reservar%20el%20servicio:%20Moldeado%2FPermanente%20m%C3%A1s%20corte%20(73%E2%82%AC)" target="_blank" class="block bg-dark-800 border border-dark-600 hover:border-gold-500 rounded-xl p-4 flex justify-between items-center transition-all duration-200 card-glow group">
-                    <div class="flex items-center space-x-3">
-                        <div class="p-2.5 rounded-lg bg-dark-700 text-gold-500 group-hover:bg-gold-500 group-hover:text-black transition-colors">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        </div>
-                        <div>
-                            <h3 class="font-bold text-white text-sm group-hover:text-gold-400 transition-colors">Moldeado / Permanente + Corte</h3>
-                            <p class="text-[11px] text-gray-400">Rizos y texturizado profesional</p>
-                        </div>
-                    </div>
-                    <div class="text-right">
-                        <span class="text-lg font-extrabold text-white group-hover:text-gold-400">73€</span>
-                    </div>
-                </a>
-
-            </div>
-        </section>
-
-        <!-- Información de Bonos & Condiciones -->
-        <section class="bg-dark-800/80 border border-dark-600 rounded-2xl p-5 backdrop-blur-sm">
-            <h3 class="font-bold text-gold-400 text-xs uppercase tracking-wider mb-3 flex items-center">
-                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                Condiciones de las tarifas y bonos
-            </h3>
-            <ul class="space-y-2 text-[11px] text-gray-300">
-                <li class="flex items-start">
-                    <span class="text-gold-500 mr-2 font-bold">•</span>
-                    <span><strong>Lavado incluido:</strong> Todos los servicios de peluquería incluyen lavado completo.</span>
-                </li>
-                <li class="flex items-start">
-                    <span class="text-gold-500 mr-2 font-bold">•</span>
-                    <span><strong>Mes Natural:</strong> Todos los bonos son válidos únicamente del 1 al 30 de cada mes.</span>
-                </li>
-                <li class="flex items-start">
-                    <span class="text-gold-500 mr-2 font-bold">•</span>
-                    <span><strong>Fecha de Pago:</strong> Las tarifas mensuales se abonan del 1 al 5 de cada mes.</span>
-                </li>
-                <li class="flex items-start">
-                    <span class="text-gold-500 mr-2 font-bold">•</span>
-                    <span><strong>Validez:</strong> La tarifa seleccionada solo funciona dentro del mes seleccionado.</span>
-                </li>
-            </ul>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="mt-10 text-center text-gray-500 text-xs">
-        <p>© Galindo Peluqueros. Todos los derechos reservados.</p>
-    </footer>
-
-</body>
-</html>
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-
